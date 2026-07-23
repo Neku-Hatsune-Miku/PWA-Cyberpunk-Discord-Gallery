@@ -10,6 +10,7 @@ Salut à tous 👋
 Depuis quelques mois je développe un petit projet perso que je voulais partager ici : une **galerie multimédia web au design cyberpunk**, qui se synchronise automatiquement avec un salon Discord.   
 
 L'idée de base : centraliser et exposer joliment tous les médias postés dans un salon Discord, sous forme de site statique.
+
 ![img](images-readme/apercu_general_website_desktop.png)
 
 
@@ -20,6 +21,7 @@ L'idée de base : centraliser et exposer joliment tous les médias postés dans 
 - Il interroge l'API Discord, gère la pagination sur l'historique des messages  
 - Il détecte et rafraîchit les jetons d'URL expirables des attachments Discord (CDN)  
 - Un webhook envoie un petit récap à chaque synchro : médias ajoutés, supprimés, jetons rafraîchis
+
 ![img](images-readme/Webhook_discord_desktop.png)
 
 **Front-end**
@@ -28,15 +30,13 @@ L'idée de base : centraliser et exposer joliment tous les médias postés dans 
 - Une lightbox modale pour agrandir les images/vidéos au clic  
 - Le tout packagé en **PWA** (installable, icônes, manifest)
 
-⚠️ NSFW  
+⚠️ NSFW
+
 ![gif](images-readme/survole_website_desktop.gif)
 
 
 ## 🎨 Le design
 J'ai voulu un thème cyberpunk assez marqué : néons roses/violets, typographie Orbitron/Rajdhani, effets de glow au survol des cartes.
-
-⚠️ NSFW 
-![gif](images-readme/survole_website_desktop.gif)
 
 
 ## 🛠️ Stack technique
@@ -75,5 +75,5 @@ Tout est open, voici les fichiers principaux si vous voulez jeter un œil ou vou
   Est-ce que l'approche "GitHub Actions + JSON statique" vous semble pertinente pour ce cas d'usage, ou verriez-vous une meilleure solution (webhook temps réel, base de données, etc.) ?
 
   
-- Toute autre remarque, critique ou suggestion est la bienvenue, c'est un projet perso et j'apprends en le faisant !
+### Toute autre remarque, critique ou suggestion est la bienvenue, c'est un projet perso et j'apprends en le faisant !
 Merci d'avance pour vos retours 🙏
