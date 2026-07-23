@@ -48,11 +48,11 @@ https://kommodo.ai/i/WYWBZixylg1OfAcI2NF0
 ## 📂 Le code
 Tout est open, voici les fichiers principaux si vous voulez jeter un œil ou vous en inspirer :
 - [`index.html`](index.html)  — structure de la page  
-- [`css/style.css`](https://pastebin.com/yCZuK5Q7)  — thème cyberpunk  
-- [`script.js`](https://pastebin.com/y8d6HYDn) — logique front-end (galerie + lightbox)  
-- [`recupere_medias.js`](https://pastebin.com/h4Qrsjpc) — synchro Discord → JSON  
-- [`.github/workflows/sync_discord.yml`](https://pastebin.com/k2RwxeVN) — workflow GitHub Actions  
-- [`.env / .env.example`](https://pastebin.com/s6uNH7sC) — Environnement secret
+- [`css/style.css`](css/style.css)  — thème cyberpunk  
+- [`script.js`](script.js) — logique front-end (galerie + lightbox)  
+- [`recupere_medias.js`](recupere_medias.js) — synchro Discord → JSON  
+- [`.github/workflows/sync_discord.yml`](.github/workflows/sync_discord.yml) — workflow GitHub Actions  
+- [`.env / .env.example`](.env.example) — Environnement secret
 
 ---
 
