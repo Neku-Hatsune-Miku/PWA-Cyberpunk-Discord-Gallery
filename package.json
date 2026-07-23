@@ -1,0 +1,13 @@
+{
+  "name": "PWA-Cyberpunk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Galerie sync depuis un salon Discord via GitHub Actions.",
+  "main": "recupere_medias.js",
+  "scripts": {
+    "sync": "node recupere_medias.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
